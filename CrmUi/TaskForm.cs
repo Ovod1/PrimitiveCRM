@@ -21,7 +21,8 @@ namespace CrmUi
                 ControlTime = DateTime.ParseExact(textBox3.Text, "yyyy-MM-dd HH:mm",
                                        System.Globalization.CultureInfo.InvariantCulture),
                 Status = textBox4.Text,
-                ProjectId = int.Parse(textBox5.Text)
+                ProjectId = int.Parse(textBox5.Text),
+                DepartmentName = textBox6.Text
             };
             Close();
         }

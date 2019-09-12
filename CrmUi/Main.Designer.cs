@@ -114,12 +114,14 @@
             this.progressToolStripMenuItem1.Name = "progressToolStripMenuItem1";
             this.progressToolStripMenuItem1.Size = new System.Drawing.Size(324, 38);
             this.progressToolStripMenuItem1.Text = "Progress";
+            this.progressToolStripMenuItem1.Click += new System.EventHandler(this.progressToolStripMenuItem1_Click);
             // 
             // doneToolStripMenuItem1
             // 
             this.doneToolStripMenuItem1.Name = "doneToolStripMenuItem1";
             this.doneToolStripMenuItem1.Size = new System.Drawing.Size(324, 38);
             this.doneToolStripMenuItem1.Text = "Done";
+            this.doneToolStripMenuItem1.Click += new System.EventHandler(this.doneToolStripMenuItem1_Click);
             // 
             // progressToolStripMenuItem
             // 
@@ -139,18 +141,21 @@
             this.toDoToolStripMenuItem2.Name = "toDoToolStripMenuItem2";
             this.toDoToolStripMenuItem2.Size = new System.Drawing.Size(324, 38);
             this.toDoToolStripMenuItem2.Text = "To do";
+            this.toDoToolStripMenuItem2.Click += new System.EventHandler(this.toDoToolStripMenuItem2_Click);
             // 
             // progressToolStripMenuItem2
             // 
             this.progressToolStripMenuItem2.Name = "progressToolStripMenuItem2";
             this.progressToolStripMenuItem2.Size = new System.Drawing.Size(324, 38);
             this.progressToolStripMenuItem2.Text = "Progress";
+            this.progressToolStripMenuItem2.Click += new System.EventHandler(this.progressToolStripMenuItem2_Click);
             // 
             // doneToolStripMenuItem2
             // 
             this.doneToolStripMenuItem2.Name = "doneToolStripMenuItem2";
             this.doneToolStripMenuItem2.Size = new System.Drawing.Size(324, 38);
             this.doneToolStripMenuItem2.Text = "Done";
+            this.doneToolStripMenuItem2.Click += new System.EventHandler(this.doneToolStripMenuItem2_Click);
             // 
             // doneToolStripMenuItem
             // 
@@ -170,18 +175,21 @@
             this.toDoToolStripMenuItem3.Name = "toDoToolStripMenuItem3";
             this.toDoToolStripMenuItem3.Size = new System.Drawing.Size(324, 38);
             this.toDoToolStripMenuItem3.Text = "To do";
+            this.toDoToolStripMenuItem3.Click += new System.EventHandler(this.toDoToolStripMenuItem3_Click);
             // 
             // progressToolStripMenuItem3
             // 
             this.progressToolStripMenuItem3.Name = "progressToolStripMenuItem3";
             this.progressToolStripMenuItem3.Size = new System.Drawing.Size(324, 38);
             this.progressToolStripMenuItem3.Text = "Progress";
+            this.progressToolStripMenuItem3.Click += new System.EventHandler(this.progressToolStripMenuItem3_Click);
             // 
             // doneToolStripMenuItem3
             // 
             this.doneToolStripMenuItem3.Name = "doneToolStripMenuItem3";
             this.doneToolStripMenuItem3.Size = new System.Drawing.Size(324, 38);
             this.doneToolStripMenuItem3.Text = "Done";
+            this.doneToolStripMenuItem3.Click += new System.EventHandler(this.doneToolStripMenuItem3_Click);
             // 
             // statisticsToolStripMenuItem
             // 
@@ -210,6 +218,7 @@
             this.newProgectToolStripMenuItem.Name = "newProgectToolStripMenuItem";
             this.newProgectToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.newProgectToolStripMenuItem.Text = "New Progect";
+            this.newProgectToolStripMenuItem.Click += new System.EventHandler(this.newProgectToolStripMenuItem_Click);
             // 
             // newTaskToolStripMenuItem
             // 
@@ -223,12 +232,14 @@
             this.newEmployeeToolStripMenuItem.Name = "newEmployeeToolStripMenuItem";
             this.newEmployeeToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.newEmployeeToolStripMenuItem.Text = "New Employee";
+            this.newEmployeeToolStripMenuItem.Click += new System.EventHandler(this.newEmployeeToolStripMenuItem_Click);
             // 
             // newCustomerToolStripMenuItem
             // 
             this.newCustomerToolStripMenuItem.Name = "newCustomerToolStripMenuItem";
             this.newCustomerToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.newCustomerToolStripMenuItem.Text = "New Customer";
+            this.newCustomerToolStripMenuItem.Click += new System.EventHandler(this.newCustomerToolStripMenuItem_Click);
             // 
             // developmentToolStripMenuItem
             // 
@@ -253,18 +264,21 @@
             this.soonDeadlineToolStripMenuItem.Name = "soonDeadlineToolStripMenuItem";
             this.soonDeadlineToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.soonDeadlineToolStripMenuItem.Text = "Soon deadline";
+            this.soonDeadlineToolStripMenuItem.Click += new System.EventHandler(this.soonDeadlineToolStripMenuItem_Click);
             // 
             // soonDeadlineToolStripMenuItem1
             // 
             this.soonDeadlineToolStripMenuItem1.Name = "soonDeadlineToolStripMenuItem1";
             this.soonDeadlineToolStripMenuItem1.Size = new System.Drawing.Size(324, 38);
             this.soonDeadlineToolStripMenuItem1.Text = "Soon deadline";
+            this.soonDeadlineToolStripMenuItem1.Click += new System.EventHandler(this.soonDeadlineToolStripMenuItem1_Click);
             // 
             // soonDeadlineToolStripMenuItem2
             // 
             this.soonDeadlineToolStripMenuItem2.Name = "soonDeadlineToolStripMenuItem2";
             this.soonDeadlineToolStripMenuItem2.Size = new System.Drawing.Size(324, 38);
             this.soonDeadlineToolStripMenuItem2.Text = "Soon deadline";
+            this.soonDeadlineToolStripMenuItem2.Click += new System.EventHandler(this.soonDeadlineToolStripMenuItem2_Click);
             // 
             // myTascsToolStripMenuItem
             // 
@@ -278,36 +292,42 @@
             this.allTascsToolStripMenuItem.Name = "allTascsToolStripMenuItem";
             this.allTascsToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.allTascsToolStripMenuItem.Text = "All Tasks";
+            this.allTascsToolStripMenuItem.Click += new System.EventHandler(this.allTascsToolStripMenuItem_Click);
             // 
             // allTascsToolStripMenuItem1
             // 
             this.allTascsToolStripMenuItem1.Name = "allTascsToolStripMenuItem1";
             this.allTascsToolStripMenuItem1.Size = new System.Drawing.Size(324, 38);
             this.allTascsToolStripMenuItem1.Text = "All Tasks";
+            this.allTascsToolStripMenuItem1.Click += new System.EventHandler(this.allTascsToolStripMenuItem1_Click);
             // 
             // allTasksToolStripMenuItem
             // 
             this.allTasksToolStripMenuItem.Name = "allTasksToolStripMenuItem";
             this.allTasksToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.allTasksToolStripMenuItem.Text = "All Tasks";
+            this.allTasksToolStripMenuItem.Click += new System.EventHandler(this.allTasksToolStripMenuItem_Click);
             // 
             // listToolStripMenuItem
             // 
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
             this.listToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.listToolStripMenuItem.Text = "List of employees";
+            this.listToolStripMenuItem.Click += new System.EventHandler(this.listToolStripMenuItem_Click);
             // 
             // listOfEmployeesToolStripMenuItem
             // 
             this.listOfEmployeesToolStripMenuItem.Name = "listOfEmployeesToolStripMenuItem";
             this.listOfEmployeesToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
             this.listOfEmployeesToolStripMenuItem.Text = "List of employees";
+            this.listOfEmployeesToolStripMenuItem.Click += new System.EventHandler(this.listOfEmployeesToolStripMenuItem_Click);
             // 
             // listOfEmployeesToolStripMenuItem1
             // 
             this.listOfEmployeesToolStripMenuItem1.Name = "listOfEmployeesToolStripMenuItem1";
             this.listOfEmployeesToolStripMenuItem1.Size = new System.Drawing.Size(324, 38);
             this.listOfEmployeesToolStripMenuItem1.Text = "List of employees";
+            this.listOfEmployeesToolStripMenuItem1.Click += new System.EventHandler(this.listOfEmployeesToolStripMenuItem1_Click);
             // 
             // Main
             // 

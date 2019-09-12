@@ -16,11 +16,11 @@ namespace CrmUi
             InitializeComponent();
             dataGridView.DataSource = set.Local.ToBindingList();
         }
-        //public Roster(DbRawSqlQuery set)
-        //{
-        //    InitializeComponent();
-        //    dataGridView.DataSource = set.Local.ToBindingList();
-        //}
+        public Roster(DbRawSqlQuery<T> get)
+        {
+            InitializeComponent();
+            dataGridView.DataSource = get.ToListAsync();
+        }
 
 
     }

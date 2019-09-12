@@ -9,6 +9,7 @@ namespace CrmBL.Model
         public string Content { get; set; }
         public string Status { get; set; }
         public DateTime ControlTime { get; set; }
+        public string DepartmentName { get; set; }
         public int ProjectId { get; set; }
         public virtual Project Project { get; set; }
         public ICollection<Employee> Employees { get; set; }

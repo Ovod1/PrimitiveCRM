@@ -4,25 +4,25 @@ using System.Windows.Forms;
 
 namespace CrmUi
 {
-    public partial class ProjectForm : Form
+    public partial class CustomerForm : Form
     {
-        public Project Project { get; set; }
-        public ProjectForm()
+        public Customer Customer { get; set; }
+        public CustomerForm()
         {
             InitializeComponent();
         }
 
-        private void ProjectForm_Load(object sender, EventArgs e)
+        private void CustomerForm_Load(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Project = new Project()
+            Customer = new Customer()
             {
                 Name = textBox1.Text,
-                CustomerId = int.Parse(textBox2.Text)
+                Email = textBox2.Text,
             };
             Close();
         }

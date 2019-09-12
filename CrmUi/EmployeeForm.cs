@@ -1,30 +1,28 @@
 ﻿using CrmBL.Model;
 using System;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CrmUi
 {
-    public partial class ProjectForm : Form
+    public partial class EmployeeForm : Form
     {
-        public Project Project { get; set; }
-        public ProjectForm()
+        public Employee Employee { get; set; }
+        public EmployeeForm()
         {
             InitializeComponent();
         }
 
-        private void ProjectForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Project = new Project()
+            Employee = new Employee()
             {
                 Name = textBox1.Text,
-                CustomerId = int.Parse(textBox2.Text)
+                DepartmentId = int.Parse(textBox2.Text),
+                Email = textBox3.Text
             };
             Close();
+
         }
     }
 }
